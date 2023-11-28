@@ -31,10 +31,10 @@
       <div class="address">
         <nav>
           <ul>
-            <li>
+            <li class="address-list">
               <a href="tel:+99995555555">+9 999 555 5555</a>
             </li>
-            <li>
+            <li class="address-list">
               <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
             </li>
             <li>
@@ -51,17 +51,13 @@
         <div class="overlay">
           <h1 class="cover__title">
             <span class="aligned-text aligned-text_left"
-              >он <span class="letter-spacing-extended">о</span></span
+              >он<span class="letter-spacing-extended-o">о</span></span
             >
             <span class="aligned-text aligned-text_center"
-              >теб <span class="letter-spacing-extended">е</span></span
+              >теб<span class="letter-spacing-extended-e">е</span></span
             >
-            <span class="aligned-text aligned-text_right"
-              ><span class="letter-spacing-extended">н</span>ад
-              <span class="letter-spacing-extended no-letter-spacing"
-                >о</span
-              ></span
-            >
+              <span class="aligned-text aligned-text_right letter-spacing-extended-o"
+              >н<span class="no-letter-spacing">адо</span>
           </h1>
           <div class="cover__description">
             <h3 class="cover__description-text">
@@ -74,8 +70,10 @@
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
-          <li class="card card_type_film ">
-            <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+          <li class="card card_type_film">
+            <h3 class="card__title">
+              Фильм режиссёра, который бросил киношколу
+            </h3>
             <p class="card__text">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -83,7 +81,9 @@
             <div class="overlay"></div>
           </li>
           <li class="card card_type_book">
-            <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+            <h3 class="card__title">
+              Книга, где описан один скучный день из жизни рекламного агента
+            </h3>
             <p class="card__text">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается
@@ -94,7 +94,9 @@
             <div class="overlay"></div>
           </li>
           <li class="card card_type_picture">
-            <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+            <h3 class="card__title">
+              Картина, которую повторит даже 5-летний сын маминой подруги
+            </h3>
             <p class="card__text">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
@@ -105,7 +107,7 @@
           </li>
         </ul>
         <p class="lots__look-more-link">посмотреть больше</p>
-      </section>      
+      </section>
       <div class="about">
         <div class="about__column">
           <div class="about__logo">
@@ -137,7 +139,7 @@
     <footer class="footer">
       <div class="footer__contact-info">
         <nav class="footer__menu">
-          <ul class="footer__menu-list">
+          <ul class="footer__menu-list-left">
             <li class="footer__menu-list-item">
               <a href="tel:+99995555555">+9 999 555 5555</a>
             </li>
@@ -147,20 +149,17 @@
           </ul>
         </nav>
         <div class="address">
-          <ul class="address">
+          <ul class="address-list">
             <li>
-              <a class="footer__address" href="#0"
-                >наб. Принсенграхт 263-265,<br />
-                Амстердам</a
-              >
+              <a class="address-link" href="#0">наб. Принсенграхт 263-265, Амстердам</a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="footer__menu-list">
-        <ul class="footer__menu-list-item">
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
           <li class="footer__menu-link_active">
-            <a class="footer__menu-link">главная</a>
+            <a class="footer__menu-link" href="#">главная</a>
           </li>
           <li class="footer__menu-link_active">
             <a class="footer__menu-link" href="#0">посмотреть лоты</a>
@@ -169,32 +168,36 @@
             <a class="footer__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
-      </div>
-      <div class="footer__social-list">
-        <ul class="footer__social-list">
-          <li class="footer__social-list-item ">
+      </nav>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="" href="#">
             <img
               class="footer__social-icon"
               src="./images/yt.svg"
               alt="footer__social-link"
             />
-          </li>
-          <li class="footer__social-list-item">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="" href="#">
             <img
               class="footer__social-icon"
               src="./images/vk.svg"
               alt="footer__social-link"
             />
-          </li>
-          <li class="footer__social-list-item">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="" href="#">
             <img
               class="footer__social-icon"
               src="./images/pinterest.svg"
               alt="footer__social-link"
             />
-          </li>
-        </ul>
-      </div>
-    </footer>
+          </a>
+        </li>
+      </ul>
+    </footer>    
   </body>
 </html>
