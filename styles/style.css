@@ -33,9 +33,6 @@ body {
   gap: 33px;
 }
 
-.header__link_active {
-}
-
 .header .header__link {
   color: black;
 }
