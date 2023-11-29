@@ -23,8 +23,8 @@ body {
 
 .header__logo-image {
   display: flex;
-  width: 148px;
-  height: 105px;
+  width: 140px;
+  height: 104px;
 }
 
 .header__links-list {
@@ -40,9 +40,16 @@ body {
 .address {
   text-decoration: none;
   max-width: 240px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px; /* 135% */
 }
+
 .address .address-list {
-  padding-bottom: 5px;
+
 }
 
 .address li {
@@ -100,6 +107,7 @@ body {
 .aligned-text_right {
   text-align: right;
   padding-left: 50px;
+
 }
 .no-letter-spacing {
   padding-left: 30px;
@@ -117,7 +125,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding-right: 50px;
-  padding-top: 135px;
+  padding-top: 134px;
 }
 
 .cover__description-text {
@@ -130,6 +138,7 @@ body {
   text-transform: uppercase;
   font-style: normal;
   word-spacing: 18px;
+  padding-right: 0px;
 }
 
 .bet-button {
@@ -312,10 +321,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  line-height: 1.17;
 }
 
 .about__text-space {
-  padding-bottom: 27px;
+  padding-bottom: 28px;
+  line-height: 1.17;
 }
 
 .footer {
