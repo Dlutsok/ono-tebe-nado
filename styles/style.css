@@ -327,7 +327,6 @@ body {
 }
 
 .footer__menu-list-left {
-  list-style-type: circle;
   color: #000;
   font-family: Raleway;
   font-size: 18px;
@@ -361,7 +360,6 @@ body {
   text-align: center;
   list-style-type: none;
   color: #000;
-  text-align: center;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
