@@ -27,14 +27,22 @@ body {
   height: 104px;
 }
 
+
+
 .header__links-list {
   list-style-type: circle;
   display: flex;
   gap: 33px;
+  padding-top: 3px;
+}
+
+.header__link-home {
+  list-style-type: none;
 }
 
 .header .header__link {
   color: black;
+
 }
 
 .address {
@@ -48,11 +56,11 @@ body {
   line-height: 24.3px; /* 135% */
 }
 
-.address .address-list {
-
+.address li {
+  list-style-type: none;
 }
 
-.address li {
+.header__link_active {
   list-style-type: none;
 }
 
