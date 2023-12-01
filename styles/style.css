@@ -16,7 +16,7 @@ body {
   text-underline-offset: 4px;
   width: 100%;
   max-width: 1340px;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .header .header__logo {
@@ -273,11 +273,6 @@ body {
   margin: 0 95px 0 95px;
 }
 
-.about__logo {
-  position: relative;
-  display: inline-block;
-}
-
 .about__logo::before {
   content: "";
   position: absolute;
@@ -339,7 +334,6 @@ body {
   justify-content: space-between;
   padding: 155px 50px 90px 50px;
   text-underline-offset: 4px;
-  align-items: center;
   align-items: flex-start;
   color: #000;
   font-family: Raleway;
